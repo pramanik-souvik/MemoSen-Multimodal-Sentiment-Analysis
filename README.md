@@ -53,6 +53,13 @@ Positive · Neutral · Negative
 
 The MemoSen dataset is a curated Bengali meme sentiment dataset containing visual content and textual captions.
 
+### Dataset Overview
+
+![Dataset Overview](dataset_overview.png)
+
+*Overview of the MemoSen dataset showing the composition of meme samples across different modalities and caption types.*
+
+
 ### Dataset Statistics
 
 | Category | Count |
@@ -64,6 +71,12 @@ The MemoSen dataset is a curated Bengali meme sentiment dataset containing visua
 | Bengali captions | 2,545 |
 | English captions | 467 |
 | Code-mixed captions | 1,357 |
+
+### Sentiment Distribution
+
+![Sentiment Distribution](figures/sentiment_distribution.png)
+
+*Distribution of sentiment classes in the MemoSen dataset, highlighting class imbalance across positive, neutral, and negative labels.*
 
 ---
 
@@ -88,7 +101,14 @@ The proposed model outperforms:
 
 **Best Performance:**
 - **Accuracy:** 86%  
-- **Macro-F1:** 0.88  
+- **Macro-F1:** 0.88
+
+### Confusion Matrix
+
+![Confusion Matrix](figures/confusion_matrix.png)
+
+*Confusion matrix of the proposed multimodal model on the MemoSen test set, illustrating class-wise prediction performance and error patterns.*
+
 
 Ablation studies confirm the importance of:
 - Language-aware tokenization  
