@@ -76,7 +76,9 @@ The MemoSen dataset is a curated Bengali meme sentiment dataset containing visua
 
 ### Sentiment Distribution
 
-![Sentiment Distribution](figures/sentiment_distribution.png)
+<p align="center">
+  <img src="figures/sentiment-distribution.png" width="500">
+</p>
 
 *Distribution of sentiment classes in the MemoSen dataset, highlighting class imbalance across positive, neutral, and negative labels.*
 
@@ -107,7 +109,9 @@ The proposed model outperforms:
 
 ### Confusion Matrix
 
-![Confusion Matrix](figures/confusion_matrix.png)
+<p align="center">
+  <img src="figures/output.png" width="500">
+</p>
 
 *Confusion matrix of the proposed multimodal model on the MemoSen test set, illustrating class-wise prediction performance and error patterns.*
 
